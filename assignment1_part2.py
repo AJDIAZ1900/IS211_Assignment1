@@ -8,5 +8,8 @@ class Book:
         print(f"{self.title}, written by {self.author}")
 
 if __name__ == "__main__":
-    a = Book("Thorpe", "Beat the Dealer")
-    a.display()
+    book1 = Book("J. K. Rowling", "Harry Potter and the Goblet of Fire")
+    book2 = Book("Walter Scott", "Ivanhoe: A Romance")
+    book1.display()
+    book2.display()
+# Add second book instance to assignment1_part2.py
